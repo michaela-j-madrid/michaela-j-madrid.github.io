@@ -10874,29 +10874,34 @@ section {
 }
 
 blockquote {
-  border-bottom: 4px solid black;
-  border-top: 4px solid black;
+  border-bottom: 4px solid #403F4C;
+  border-top: 4px solid #403F4C;
   padding: 1rem;
   font-style: italic;
   margin-top: 2rem;
 }
 
+h1.topper {
+  border-bottom: 8px solid #403F4C;
+  padding-bottom: 1rem;
+}
+
 img#mug {
   width: 100%;
   max-width: 400px;
-  border: 2px solid black;
-  margin-bottom: 4rem;
-  margin-top: -18rem;
+  border: 2px solid #403F4C;
 }
 
 div.mug-wrap {
   display: grid;
   place-items: center;
+  /*
   background: #BA3F1D;
   height: 140px;
   box-shadow: 2px 2px 0 black, 10px 10px 0 #efbcd5, 12px 12px 0 black, 20px 20px 0 #403F4C;
   border-radius: 5px;
   margin: 19rem 0 4rem 0;
+  */
 }
 
 div.info.leaflet-control {
@@ -10920,10 +10925,6 @@ section#issues > div.row {
     margin: 0.7rem auto;
   }
 
-  div.mug-wrap {
-    margin-top: 21rem;
-  }
-
   div.row {
     display: block;
     margin: 0;
@@ -10931,6 +10932,10 @@ section#issues > div.row {
 
   div.row > div.col {
     margin: 1rem auto;
+  }
+
+  span#lname {
+    display: none;
   }
 }
 
